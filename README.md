@@ -52,3 +52,25 @@ curl -X POST http://localhost:5000//getPredictionOutput -H "Content-Type: applic
     "BedroomAbvGr":[3], 
     "TotRmsAbvGrd":[8]
 }'
+```
+
+### Example Responce
+```bash
+{
+  "predicted_price": 350000
+}
+```
+
+### Project Structure
+
+#### In progress
+
+### Model Training
+The model was trained using a dataset of house features and sale prices. The training process involved:
+
+1. Feature selection
+2. Model selection and training
+
+### License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/VolodymyrYakovenko/AccurateHome/blob/main/LICENSE) for details.
+
