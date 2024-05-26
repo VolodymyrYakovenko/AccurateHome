@@ -37,6 +37,8 @@ This project aims to predict the estimated sale price of a house based on input 
     ```
 2. The API will be available at `http://localhost:5000`.
 
+Note: Public API is available on `https://defline.pythonanywhere.com/`
+
 ### Using the API
 Send a POST request to the `/getPredictionOutput` endpoint with a JSON payload containing the house features. Example:
 
